@@ -22,9 +22,10 @@
   --thm-reey-font: "Ubuntu";
   --thm-gray: #707876;
   --thm-gray-rgb: 112, 120, 118;
-  --thm-primary: #86141D;
+  --thm-primary: #874525;
   --thm-primary-rgb: 21, 200, 160;
   --thm-black: #1f2230;
+  --thm-white: #ffffff;
   --thm-black-rgb: 31, 34, 48;
 }
 
@@ -3082,13 +3083,13 @@ h6 {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(var(--thm-black-rgb), 0.9);
+  background-color: #e5eeecbb;;
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 26px;
-  color: #000;
+  color: #ff0000;
   transition: opacity 500ms ease, visibility 500ms ease, transform 500ms ease;
   visibility: hidden;
   opacity: 0;
@@ -3202,13 +3203,13 @@ h6 {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(var(--thm-black-rgb), 0.9);
+  background-color: #e5eeecbb;
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 25px;
-  color: #000;
+  color: #ff0000;
   transition: opacity 500ms ease, visibility 500ms ease, transform 500ms ease;
   visibility: hidden;
   opacity: 0;
@@ -3334,7 +3335,6 @@ h6 {
   position: relative;
   -webkit-transition: 500ms;
   transition: 500ms;
-  opacity: 0.3;
 }
 
 .brand-one__single:hover .brand-one__img>img {
@@ -3347,7 +3347,7 @@ h6 {
 .site-footer {
   position: relative;
   display: block;
-  padding: 92px 0 0;
+  padding: 0;
 }
 
 .site-footer-bg {
@@ -3565,7 +3565,6 @@ h6 {
   display: block;
   background: #1b1e2b;
   z-index: 1;
-  margin-top: 87px;
 }
 
 .site-footer__bottom:before {
