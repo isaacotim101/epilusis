@@ -1,4 +1,5 @@
-import mainSliderTwo from "@/data/mainSliderTwo";
+import mainSliderTwo from "@/data/mainSliderData";
+//import mainSliderData from "@/data/mainSliderData";
 import React from "react";
 import SwiperCore, {
   Autoplay,
@@ -31,7 +32,7 @@ const mainSlideOptions = {
 
 const MainSliderTwo = () => {
   return (
-    <section className="main-slider main-slider-two">
+    <section className="main-slider">
       <Swiper className="thm-swiper__slider" {...mainSlideOptions}>
         <div className="swiper-wrapper">
           {mainSliderTwo.map((slide) => (

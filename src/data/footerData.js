@@ -4,33 +4,23 @@ import { contact } from "./contactData";
 
 const footerData = {
   ...contact,
-  link: "Halpes",
+  link: "Epilusis",
   copyrightYear: new Date().getFullYear(),
   about:
-    "Lorem ipsum dolor sit ame consect etur pisicing elit sed do eiusmod tempor incididunt ut labore.",
+    "To minister to people God's Truth and Love so that they can be transformed in evry area of their lives.",
   bottomLogo: footerImage.src,
   footerBg: bg.src,
   social: [
     {
       id: 1,
-      href: "#",
-      icon: "fa-twitter"
+      href: "https://www.youtube.com/channel/UCk080HPi00JgHJZUPE589Wg",
+      icon: "fa-youtube"
     },
     {
       id: 2,
-      href: "#",
+      href: "https://www.facebook.com/epilusisminstry",
       icon: "fa-facebook-square"
     },
-    {
-      id: 3,
-      href: "#",
-      icon: "fa-dribbble"
-    },
-    {
-      id: 4,
-      href: "#",
-      icon: "fa-instagram"
-    }
   ],
   exploreList: [
     {

@@ -41,7 +41,6 @@ const MainSlider = () => {
             <SingleSlide key={slide.id} slide={slide} />
           ))}
         </div>
-        <SliderCounter />
         <div className="swiper-pagination" id="main-slider-pagination"></div>
         <div className="main-slider__nav">
           <div

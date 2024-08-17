@@ -1,6 +1,6 @@
 import { useRootContext } from "@/context/context";
 import navItems, { social } from "@/data/NavItems";
-import logo from "@/images/resources/logo-1.png";
+import logo from "@/images/resources/epi_logo_white.svg";
 import Link from "next/link";
 import React from "react";
 import { Image } from "react-bootstrap";
@@ -45,11 +45,11 @@ const MobileMenu = () => {
         <ul className="mobile-nav__contact list-unstyled">
           <li>
             <i className="fa fa-envelope"></i>
-            <a href="mailto:info@africanhearts.co">info@africanhearts.co</a>
+            <a href="mailto:info@epilusis.org">info@epilusis.org</a>
           </li>
           <li>
             <i className="fa fa-phone-alt"></i>
-            <a href="tel:+256 414 580 644">+256 414 580 644 (Office)</a>
+            <a href="tel:+256 414 580 644">+256 779 975953</a>
           </li>
         </ul>
         <div className="mobile-nav__top">

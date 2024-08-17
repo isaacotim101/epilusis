@@ -1,10 +1,10 @@
 import Card from '@mui/material/Card';
 import Grid from '@mui/material/Grid';
-import React, { useState } from "react";
 import { useFetch } from "../../hooks/useSWR";
 import Link from "next/link";
 import { Container, Image } from "react-bootstrap";
-
+import React, { useEffect, useState } from "react";
+import axios from 'axios';
 import DOMPurify from 'dompurify'; // Import DOMPurify
 
 const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
@@ -15,6 +15,23 @@ export default function Album() {
 
   const [readMore, setReadMore] = useState(false);
 
+  const [videos, setVideos] = useState([]);
+
+  useEffect(() => {
+    // Function to fetch YouTube videos
+    const fetchYouTubeVideos = async () => {
+      try {
+        const response = await axios.get(
+          "https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UCk080HPi00JgHJZUPE589Wg&type=video&maxResults=50&key=AIzaSyA3DyZmhoLZr0eTg2XZSQgOUrd_T2p0yPM"
+        ); // Replace YOUR_API_KEY with your actual API key
+        setVideos(response.data.items); // Set the retrieved videos in state
+      } catch (error) {
+        console.error("Error fetching YouTube videos:", error);
+      }
+    };
+
+    fetchYouTubeVideos(); // Call the function to fetch videos when component mounts
+  }, []);
   const onVisibilityChange = (isVisible) => {
     if (isVisible) {
       setCountStart(true);
@@ -34,13 +51,13 @@ export default function Album() {
         <Container sx={{ py: 12 }} maxWidth="xl">
           <div className="">
           <Grid container spacing={1}>
-            {projects?.map((projects) => (
-              <Grid item key={projects._id} xs={12} sm={6} md={4}>
+            {videos?.map((projects) => (
+              <Grid item key={projects.id.videoId} xs={12} sm={6} md={4}>
                 <Card>
                 <div className="causes-one__img">
                   <div className="causes-one__img-box">
                 <Image
-                  src={projects.image}
+                  src={projects.snippet.thumbnails.medium.url}
                   alt=""
                   height='250px'
                 />
@@ -48,11 +65,11 @@ export default function Album() {
             </div>
             <div className="causes-one__content">
               <h3 className="causes-one__title">
-                <Link href={`/sponsor-details?id=${projects._id}`}>{projects.title}</Link>
+                <Link href={`/sponsor-details?id=${projects.id.videoId}`}>{projects.snippet.title}</Link>
               </h3>
               </div>
-            <a href={`/sponsor-details?id=${projects._id}`} className="footer-widget__about-btn">
-                  <i className="fa fa-heart"></i>Donate
+            <a href={`/sponsor-details?id=${projects.id.videoId}`} className="footer-widget__about-btn">
+                  <i className="fa fa-heart"></i>Watch
                 </a>
                   
                 </Card>

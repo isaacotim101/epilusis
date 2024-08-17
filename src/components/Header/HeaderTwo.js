@@ -1,7 +1,7 @@
 import { useRootContext } from "@/context/context";
 import navItems, { social } from "@/data/NavItems";
 import useScroll from "@/hooks/useScroll";
-import logo from "@/images/resources/logo-2.png";
+import logo from "@/images/resources/epi_logo_white.svg";
 import Link from "next/link";
 import React from "react";
 import { Container, Image } from "react-bootstrap";
@@ -31,7 +31,7 @@ const HeaderTwo = () => {
                   </div>
                   <div className="main-header-two__contact-text">
                     <p>Call Anytime</p>
-                    <a href="tel:+256 414 580 644">+256 414 580 644 (Office)</a>
+                    <a href="tel:+256 414 580 644">+256 779 975953</a>
                   </div>
                 </li>
                 <li>
@@ -40,18 +40,9 @@ const HeaderTwo = () => {
                   </div>
                   <div className="main-header-two__contact-text">
                     <p>Send Email</p>
-                    <a href="mailto:info@africanhearts.co">
-                    info@africanhearts.co
+                    <a href="mailto:info@epilusis.org">
+                    info@epilusis.org
                     </a>
-                  </div>
-                </li>
-                <li>
-                  <div className="main-header-two__contact-icon">
-                    <span className="icon-address"></span>
-                  </div>
-                  <div className="main-header-two__contact-text">
-                    <p>Visit Office</p>
-                    <h5>PO Box 35972, Kampala, Uganda</h5>
                   </div>
                 </li>
               </ul>

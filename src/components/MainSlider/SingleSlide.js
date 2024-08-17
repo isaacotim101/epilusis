@@ -20,9 +20,6 @@ const SingleSlide = ({ slide = {} }) => {
               <h2>
                 {title} 
               </h2>
-              <a href={href} className="thm-btn">
-                <i className="fas fa-arrow-circle-right"></i>Learn More
-              </a>
             </div>
           </Col>
         </Row>

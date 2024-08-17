@@ -1,7 +1,7 @@
 import { useRootContext } from "@/context/context";
 import navItems, { social } from "@/data/NavItems";
 import useScroll from "@/hooks/useScroll";
-import logo from "@/images/resources/logo-1.png";
+import logo from "@/images/resources/epi_logo_white.svg";
 import Link from "next/link";
 import React from "react";
 import { Image } from "react-bootstrap";
@@ -37,15 +37,15 @@ const HeaderOne = () => {
             <div className="main-menu-wrapper__left">
               <div className="main-menu-wrapper__left-content">
                 <div className="main-menu-wrapper__left-text">
-                  <p>Welcome to the African Hearts Community Organization</p>
+                  <p>Welcome to Epilusis Ministries International</p>
                 </div>
                 <div className="main-menu-wrapper__left-email-box">
                   <div className="icon">
                     <i className="fas fa-envelope"></i>
                   </div>
                   <div className="email">
-                    <a href="mailto:info@africanhearts.co">
-                      info@africanhearts.co
+                    <a href="mailto:info@epilusis.org">
+                      info@epilusis.org
                     </a>
                   </div>
                 </div>
@@ -95,14 +95,9 @@ const HeaderOne = () => {
                   </div>
                   <div className="main-menu__phone-number">
                     <p>Call Anytime</p>
-                    <a href="tel:+256 414 580 644">+256 414 580 644 (Office)</a>
+                    <a href="tel:+256 414 580 644">+256 779 975953</a>
                   </div>
                 </div>
-                <Link href={`/donation?id=1`}>
-                  <a className="main-menu__donate-btn">
-                    <i className="fa fa-heart"></i>Donate
-                  </a>
-                </Link>
               </div>
             </div>
           </nav>

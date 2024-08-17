@@ -30,8 +30,7 @@ const ContactPage = () => {
                     </div>
                     <div className="text">
                       <p>Call Us</p>
-                      <p><a href={`tel:+256414580644`}>+256 414 580 644 (Office)</a></p>
-                      <a href={`tel:+256752636241`}>+256 752 636 241 (Executive Director)</a>
+                      <p><a href={`tel:+256779 975953`}>+256 779 975953 </a></p>
                     </div>
                   </li>
                   <li>
@@ -40,16 +39,7 @@ const ContactPage = () => {
                     </div>
                     <div className="text">
                       <p>Send Email</p>
-                      <a href={`mailto:admin@africanhearts.co`}>admin@africanhearts.co</a>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="icon">
-                      <span className="icon-address"></span>
-                    </div>
-                    <div className="text">
-                      <p>Office Address</p>
-                      <h5>PO Box 35972, Kampala, Uganda</h5>
+                      <a href={`mailto:info@epilusis.org`}>info@epilusis.org</a>
                     </div>
                   </li>
                 </ul>

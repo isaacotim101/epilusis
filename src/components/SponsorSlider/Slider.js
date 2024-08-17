@@ -28,6 +28,7 @@ const settings = {
 };
 
 const CausesThree = () => {
+
   return (
     <section className="causes-three">
       <Container>
