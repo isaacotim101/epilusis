@@ -1,21 +1,16 @@
 import React from "react";
 import { Col, Image } from "react-bootstrap";
-import { useFetch } from "../../hooks/useSWR";
+import Apostle from "@/images/apostle.png";
 
 const CharityImage = () => {
   
-        // SWR call for all permissions
-        const { GetHomepage } = useFetch();
-        const { data: homepage } = GetHomepage();
   return (
     <Col xl={6} lg={6}>
-     {homepage?.map((homepage) => (
-      <div className="welcome-one__left" key={homepage._id}>
+      <div className="welcome-one__left" >
         <div className="welcome-one__img-box">
-          <Image src={homepage.homepage_image} alt="" />
+          <Image src={Apostle.src} alt="" />
         </div>
       </div>
-     ))}
     </Col>
   );
 };

@@ -32,48 +32,50 @@ const CharityContent = () => {
   };  
   return (
     <Col xl={6} lg={6}>
-     {homepage?.map((homepage) => (
-      <div className="welcome-one__right" key={homepage._id}>
+      <div className="welcome-one__right">
         <div className="section-title text-left">
-          <span className="section-title__tagline">Welcome to African Hearts Community Organisation</span>
-          <h2 className="section-title__title">
-          {homepage.homepage_header}
-          </h2>
+          <span className="section-title__tagline">Welcome to Epilusis Ministries International!</span>
+
         </div>
-        <p className={`welcome-one__right-text}`} dangerouslySetInnerHTML={sanitizeHTML(homepage.homepage_about)} />
+        <p className={`welcome-one__right-text}`}>
+        <p  style={{ textAlign: "justify" }}>
+          Founded by Apostle Jonathan Kagimu in 2014, Epilusis Ministries International is 
+          dedicated to the interpretation and practical application of Scripture. Our name, 
+          &quot;Epilusis,&quot; derives from 2 Peter 1:20, &quot;Knowing this first, that no prophecy of the scripture is of any private interpretation.&quot;
+          the word interpretation there is the word Epilusis, emphasizing the importance of understanding 
+          that no prophecy of Scripture is a private interpretation.</p>
+          <p  style={{ textAlign: "justify" }}>
+          In a world where many struggle to comprehend the Word of God and apply it to their lives, 
+          we aim to bridge that gap. Our fellowship provides a nurturing environment where individuals 
+          can come together to explore the realities of Scripture interpretation and practical application.</p>
+          <p  style={{ textAlign: "justify" }}>
+          Join us at Epilusis Ministries International and embark on a journey of discovery, 
+          enlightenment, and empowerment through the interpretation and practical application of God&apos;s Word.
+          </p>
+        </p>
             
         <div className="welcome-one__our-mission-and-story">
           <div className="welcome-one__mission-and-story-single">
             <h3>
-              <i className="fas fa-arrow-circle-right"></i>Our Mission
+              <i className="fas fa-arrow-circle-right"></i>Mission
             </h3>
             <p className="welcome-one__our-mission-and-story-text">
-            {homepage.homepage_mission}
-            </p>
+            To minister to people God&aposs Truth and Love so they can be transformed in every area of their lives.</p>
           </div>
           <div className="welcome-one__mission-and-story-single">
             <h3>
               <i className="fas fa-arrow-circle-right"></i>Our Vision
             </h3>
             <p className="welcome-one__our-mission-and-story-text">
-            {homepage.homepage_vision}
-            </p>
-          </div>
-        </div><br />
-        <div className="welcome-one__mission-and-story-single">
-            <h3>
-              <i className="fas fa-arrow-circle-right"></i>Our Belief Statement
-            </h3>
-            <p className="welcome-one__our-mission-and-story-text">
-            All children are unique, have God given potential and can thrive given the necessary support. Our work is focused on supporting children to be the future and solutions to the challenges facing our country today.
+            Knowing this first, that no prophecy of the scripture is of any private interpretation.
             </p>
            
           </div>
+        </div>
         <a href="/about" className="welcome-one__btn thm-btn">
           <i className="fas fa-arrow-circle-right"></i>Read More
         </a>
       </div>
-     ))}
     </Col>
   );
 };
