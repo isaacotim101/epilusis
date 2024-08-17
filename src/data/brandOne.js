@@ -4,6 +4,7 @@ const brandOne = [
   "brand-1-3.png",
   "brand-1-4.png",
   "brand-1-5.png",
+  "brand-1-6.png",
 ];
 
 export default brandOne;

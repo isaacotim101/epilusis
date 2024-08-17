@@ -6,8 +6,8 @@ import React from "react";
 
 const StoriesDetails = () => {
   return (
-    <Layout pageTitle="Stories Details">
-      <PageHeader pageTitle="Stories Details" />
+    <Layout pageTitle="Success Stories">
+      <PageHeader pageTitle="Success Stories" />
       <StoriesDetailsPage />
     </Layout>
   );

@@ -19,7 +19,7 @@ const CausesDetailsLeft = () => {
       const param =  urlParams.get('id');
       const fetchData = async () =>{
         try {
-          const {data: response} = await axios.get('https://african.fanitepay.com/africanbase/v1/cause/'+param, {
+          const {data: response} = await axios.get('https://african-hearts-api.vercel.app/africanbase/v1/cause/'+param, {
 
           });
           setData(response);

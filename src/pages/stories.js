@@ -1,4 +1,4 @@
-import StoriesPage from "@/components/Storiespage/Storiespage";
+import StoriesPage from "@/components/StoriesPage/Storiespage";
 import Layout from "@/components/Layout/Layout";
 import PageHeader from "@/components/PageHeader/PageHeader";
 import React from "react";

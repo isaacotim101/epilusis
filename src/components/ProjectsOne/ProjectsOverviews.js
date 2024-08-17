@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import StoriesDetails from "./StoriesDetails";
+import ProjectsDetails from "./ProjectsDetails";
 
 const TinySlider = dynamic(() => import("tiny-slider-react"), { ssr: false });
 
@@ -32,16 +32,16 @@ const CausesOne = () => {
     <section className="causes-one">
       <Container>
         <div className="section-title text-center">
-          <span className="section-title__tagline">Latest Causes</span>
+          <span className="section-title__tagline">Our Latest Impacts</span>
           <h2 className="section-title__title">
-            Find the popular cause <br />
-            and donate them
+            Our Recent <br />
+            Our Impacts
           </h2>
         </div>
         <Row >
           <Col>
             <div className="causes-one__carousel">
-                  <StoriesDetails/>
+                  <ProjectsDetails/>
                 
             </div>
           </Col>

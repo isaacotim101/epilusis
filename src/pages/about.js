@@ -7,11 +7,10 @@ import React from "react";
 
 const About = () => {
   return (
-    <Layout pageTitle="About">
-      <PageHeader pageTitle="About" />
+    <Layout pageTitle="Our History">
+      <PageHeader pageTitle="Our History" />
       <AboutPage />
       <JoinOne className="join-one__about" />
-      <TeamOne />
     </Layout>
   );
 };

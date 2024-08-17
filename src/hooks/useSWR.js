@@ -3,14 +3,24 @@ import * as api from "../services/api";
 
 export const useFetch = () => {
   return {
-      GetCauses: () =>
-      useSWR("allCauses", async () => {
-        const response = await api.getCauses();
-        return response;
-      }),
+    GetCauses: () =>
+    useSWR("allCauses", async () => {
+      const response = await api.getCauses();
+      return response;
+    }),
+    GetSponsor: () =>
+    useSWR("allSponsor", async () => {
+      const response = await api.getSponsor();
+      return response;
+    }),
       GetBlogs: () =>
       useSWR("allBlogs", async () => {
         const response = await api.getBlogs();
+        return response;
+      }),
+      GetUpdates: () =>
+      useSWR("allUpdates", async () => {
+        const response = await api.getUpdates();
         return response;
       }),
       GetTeams: () =>
@@ -66,6 +76,11 @@ export const useFetch = () => {
       GetProjects: () =>
       useSWR("allProjects", async () => {
         const response = await api.getProjects();
+        return response;
+      }),
+      GetProgram: () =>
+      useSWR("allProgram", async () => {
+        const response = await api.getProgram();
         return response;
       }),
   };

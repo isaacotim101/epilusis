@@ -31,7 +31,7 @@ const SiteFooter = () => {
       <Container>    
         <div className="site-footer__top">
           {contact?.map((contact) => ( 
-          <Row key={contact.contactpage_id}>
+          <Row key={contact._id}>
             <Col xl={6} lg={12} md={12} className="fadeInUp">
               <div className="footer-widget__column footer-widget__about">
                 <h3 className="footer-widget__title">About</h3>

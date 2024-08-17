@@ -27,7 +27,7 @@ const mainSlideOptions = {
     prevEl: "#main-slider__swiper-button-prev",
   },
   autoplay: {
-    delay: 10000,
+    delay: 5000,
   },
 };
 

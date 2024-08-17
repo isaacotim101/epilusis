@@ -27,10 +27,10 @@ const Sidebar = () => {
               </div>
               <div className="sidebar__post-content">
                 <h3>
-                  <a href={`/news-details?id=${blogs.post_id}`} className="sidebar__post-content_meta">
-                    <i className="far fa-user-circle"></i>by {blogs.post_auther}
+                  <a href={`/news-details?id=${blogs._id}`} className="sidebar__post-content_meta">
+                    <i className="far fa-user-circle"></i> {blogs.post_auther}
                   </a>
-                  <a href={`/news-details?id=${blogs.post_id}`}>{blogs.post_title}</a>
+                  <a href={`/news-details?id=${blogs._id}`}>{blogs.post_title}</a>
                 </h3>
               </div>
             </li>

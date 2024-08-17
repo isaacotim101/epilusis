@@ -17,15 +17,19 @@ export default function Album() {
           // SWR call for all permissions
         const { GetBlogs } = useFetch();
         const { data: blogs } = GetBlogs();
-          
+              // Function to format ISO timestamp to human-readable time
+    const formatTimestamp = (isoTimestamp) => {
+      const date = new Date(isoTimestamp);
+      return date.toLocaleString(); // Use this for a default format, you can customize it further
+    };
   return (
         <Container sx={{ py: 12 }} maxWidth="md">
 		        <Row>
           <Col xl={8} lg={8}>
             <div className="section-title text-left">
-              <span className="section-title__tagline">Our Blog</span>
+              <span className="section-title__tagline">Our News Letters</span>
               <h2 className="section-title__title">
-                Latest Blogs & articles, <br />
+                Latest News Letters, <br />
                 African Hearts
               </h2>
             </div>
@@ -63,7 +67,7 @@ export default function Album() {
                     <span>|</span>
                   </li>
                   <li>
-                    <a href={`/news-details?id=${blogs._id}`}>{blogs.post_created_at}</a>
+                    <a href={`/news-details?id=${blogs._id}`}>{formatTimestamp(blogs.post_created_at)}</a>
                   </li>
                 </ul>
                 <h3 className="news-one__title">

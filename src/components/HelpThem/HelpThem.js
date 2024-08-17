@@ -23,7 +23,7 @@ const HelpThem = () => {
                 <Col xl={8} lg={8}>
                   <div className="help-them__top-content">
                     <h2 className="help-them__top-content-title">
-                      Help them whenever they are in need
+                      Give them a Hand up
                     </h2>
                   </div>
                 </Col>

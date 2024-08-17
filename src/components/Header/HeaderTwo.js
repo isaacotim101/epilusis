@@ -101,11 +101,6 @@ const HeaderTwo = () => {
                     </a>
                   ))}
                 </div>
-                <span
-                  onClick={toggleSearch}
-                  style={{ cursor: "pointer" }}
-                  className="main-menu__search search-toggler icon-magnifying-glass"
-                ></span>
               </div>
             </div>
           </Container>

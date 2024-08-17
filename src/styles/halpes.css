@@ -1918,7 +1918,7 @@ h6 {
 .welcome-one {
   position: relative;
   display: block;
-  padding: 100px 0 185px;
+  padding: 100px 0 0;
 }
 
 .welcome-one .row {
@@ -2504,7 +2504,7 @@ h6 {
 .helping-one {
   position: relative;
   display: block;
-  padding: 100px 0 100px;
+  padding: 70px 0 0px;
 }
 
 .helping-one .section-title {
@@ -3041,7 +3041,7 @@ h6 {
 .news-one {
   position: relative;
   display: block;
-  padding: 100px 0 100px;
+  padding: 100px 0 0px;
 }
 
 .news-one .section-title {
@@ -3646,7 +3646,7 @@ h6 {
 .introduction {
   position: relative;
   display: block;
-  padding: 100px 0 100px;
+  padding: 100px 0 0px;
 }
 
 .introduction__left {
@@ -4023,7 +4023,7 @@ h6 {
 .events-one {
   position: relative;
   display: block;
-  padding: 100px 0 100px;
+  padding: 100px 0 0px;
 }
 
 .events-one__left {
@@ -4817,7 +4817,7 @@ h6 {
 .causes-three {
   position: relative;
   display: block;
-  padding: 100px 0 140px;
+  padding: 70px 0 50px;
 }
 
 .causes-three__top {
@@ -5142,7 +5142,7 @@ h6 {
 .why-choose {
   position: relative;
   display: block;
-  padding: 100px 0 100px;
+  padding: 100px 0 0px;
   background-color: #eff5f4;
 }
 
@@ -5503,7 +5503,7 @@ h6 {
 .causes-details {
   position: relative;
   display: block;
-  padding: 100px 0 100px;
+  padding: 100px 0 0px;
 }
 
 .causes-details__left-bar {
@@ -6045,7 +6045,7 @@ h6 {
 .news-details {
   position: relative;
   display: block;
-  padding: 100px 0 100px;
+  padding: 100px 0 0px;
 }
 
 .news-details__left {
@@ -6458,7 +6458,7 @@ h6 {
 .event-details {
   position: relative;
   display: block;
-  padding: 100px 0 100px;
+  padding: 100px 0 0px;
 }
 
 .events-details__img {
@@ -6616,7 +6616,7 @@ h6 {
 .contact-page {
   position: relative;
   display: block;
-  padding: 100px 0 100px;
+  padding: 100px 0 0px;
 }
 
 .contact-page .section-title {
@@ -7057,7 +7057,7 @@ h6 {
 .become-volunteer-page {
   position: relative;
   display: block;
-  padding: 100px 0 100px;
+  padding: 100px 0 0px;
 }
 
 .become-volunteer-page .section-title {

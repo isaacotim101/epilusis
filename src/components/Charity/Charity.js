@@ -5,14 +5,14 @@ import CharityImage from "./CharityImage";
 
 const Charity = () => {
   return (
-    <section className="welcome-one">
+    <div className="welcome-one">
       <Container>
         <Row>
           <CharityImage />
           <CharityContent />
         </Row>
       </Container>
-    </section>
+    </div>
   );
 };
 

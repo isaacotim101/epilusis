@@ -19,20 +19,18 @@ const SliderCounter = () => {
   return (
     <div className="main-slider__counter">
       <ul className="main-slider__counter-box list-unstyled">
-      {counter?.map((counter) => (
-          <li key={counter.counter_id}>
+          <li >
             <h3 className="main-sldier__counter-digit">
               <ReactVisibilitySensor
                 offset={{ top: 10 }}
                 delayedCall={true}
                 onChange={onVisibilityChange}
               >
-                <CountUp start={0} end={countStart ? counter.counter_figures : 0} duration={2} />
+                <CountUp start={0} end={countStart ? 302400 : 0} duration={2} />
               </ReactVisibilitySensor>
             </h3>
-            <span className="main-slider__counter-text">{counter.counter_title}</span>
+            <span className="main-slider__counter-text">Lives touched</span>
           </li>
-        ))}
       </ul>
     </div>
   );

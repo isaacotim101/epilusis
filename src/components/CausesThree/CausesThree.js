@@ -51,7 +51,7 @@ const CausesThree = () => {
             <div className="causes-three__carousel owl-theme owl-carousel">
               <TinySlider settings={settings}>
                 {causesThree.map((cause) => (
-                  <CausesSingle cause={cause} key={cause._id} />
+                  <CausesSingle cause={cause} key={cause.id} />
                 ))}
               </TinySlider>
             </div>

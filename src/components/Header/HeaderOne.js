@@ -89,11 +89,6 @@ const HeaderOne = () => {
                 ))}
               </ul>
               <div className="main-menu__right">
-                <span
-                  onClick={toggleSearch}
-                  style={{ cursor: "pointer" }}
-                  className="main-menu__search search-toggler icon-magnifying-glass"
-                ></span>
                 <div className="main-menu__phone-contact">
                   <div className="main-menu__phone-icon">
                     <span className="icon-chat"></span>

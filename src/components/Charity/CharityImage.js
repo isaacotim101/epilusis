@@ -10,7 +10,7 @@ const CharityImage = () => {
   return (
     <Col xl={6} lg={6}>
      {homepage?.map((homepage) => (
-      <div className="welcome-one__left" key={homepage.homepage_id}>
+      <div className="welcome-one__left" key={homepage._id}>
         <div className="welcome-one__img-box">
           <Image src={homepage.homepage_image} alt="" />
         </div>

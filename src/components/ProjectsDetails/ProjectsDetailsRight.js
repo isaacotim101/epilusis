@@ -11,10 +11,10 @@ const CausesDetailsRight = () => {
   return (
     <div className="causes-details__right">
       <div className="causes-details__donations">
-        <h3 className="causes-details__donations-title">Our Recent Successful Projects</h3>
+        <h3 className="causes-details__donations-title">Our Latest Impacts</h3>
         <ul className="list-unstyled causes-details__donations-list">
         {projects?.map((projects) => (
-            <li key={projects.id}>
+            <li key={projects._id}>
               <div className="causes-details__donations-img">
                 <Image
                   src={projects.image}
@@ -27,7 +27,7 @@ const CausesDetailsRight = () => {
                 <h5>
                   {projects.title}
                 </h5>
-                <a href={`/projects-details?id=${projects.id}`}>
+                <a href={`/projects-details?id=${projects._id}`}>
                 <h4>Read More</h4>
                 </a>
               </div>
