@@ -60,7 +60,7 @@ const CharityContent = () => {
               <i className="fas fa-arrow-circle-right"></i>Mission
             </h3>
             <p className="welcome-one__our-mission-and-story-text">
-            To minister to people God&apos; Truth and Love so they can be transformed in every area of their lives.</p>
+            To minister to people God&apos;s Truth and Love so they can be transformed in every area of their lives.</p>
           </div>
           <div className="welcome-one__mission-and-story-single">
             <h3>
