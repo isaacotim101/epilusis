@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Image } from "react-bootstrap";
-import Apostle from "@/images/apostle.png";
+import Apostle from "@/images/ap1.jpg";
 
 const CharityImage = () => {
   
