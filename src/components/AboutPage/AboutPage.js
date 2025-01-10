@@ -58,12 +58,10 @@ const AboutPage = () => {
 			In a world where many struggle to understand and apply the Word of God, we exist to bridge that gap. Through teaching and discipleship, Epilusis Ministries provides a nurturing environment where believers can explore the depths of Scripture, experience true transformation, and walk in the fullness of their divine calling.
 
 			</p>
-			<p3 style="margin-top:14pt; margin-bottom:14pt; font-size:12pt">
+			<p style="margin-top:14pt; margin-bottom:14pt; font-size:12pt">
 			Currently, the ministry reaches out to prisons, schools, evangelism missions across the nation of Uganda. 
-			</h3>
-			<hp style="margin-top:14pt; margin-bottom:14pt; font-size:12pt">
-				<span class="Strong" style="font-family:Cambria">Our History: </span>
-			</h3>
+			</p>
+			
 			
           </div>
           </Col>
