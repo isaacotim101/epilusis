@@ -47,9 +47,7 @@ const AboutPage = () => {
 						Founded in 2014 by Apostle Jonathan Kagimu, Epilusis Ministries International is dedicated to empowering God’s people with deep knowledge, sound interpretation, and practical application of the Word. Our mission is to cultivate transformation in individuals, equipping them to impact their communities and nations through the power of Scripture.
 
 				</p>
-			<p class="NormalWeb" style="margin-top:14pt; margin-bottom:14pt">
-				<span style="font-family:Cambria">The name </span><span class="Strong" style="font-family:Cambria">“Epilusis”</span><span style="font-family:Cambria"> is drawn from </span><span class="Strong" style="font-family:Cambria">2 Peter 1:20 (KJV)</span><span style="font-family:Cambria">: </span><span class="Emphasis" style="font-family:Cambria">“Knowing this first, that no prophecy of the scripture is of any private interpretation.”</span><span style="font-family:Cambria"> The Greek word </span><span class="Strong" style="font-family:Cambria">"Epilusis"</span><span style="font-family:Cambria"> in this verse means </span><span class="Strong" style="font-family:Cambria; font-weight:normal">interpretation and practical application</span><span style="font-family:Cambria">—a core emphasis of our ministry.</span>
-			</p>
+			
 			<p class="NormalWeb" style="margin-top:14pt; margin-bottom:14pt">
 			The name &quot;Epilusis&quot; is drawn from 2 Peter 1:20 (KJV): &quot;Knowing this first, that no prophecy of the scripture is of any private interpretation.&quot; The Greek word &quot;Epilusis&quot; in this verse means interpretation and practical application—a core emphasis of our ministry.
 
