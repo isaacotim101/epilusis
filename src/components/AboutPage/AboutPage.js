@@ -20,6 +20,23 @@ const AboutPage = () => {
               <div className="about-page__img">
                 <Image src={Apostle.src} alt="" />
               </div>
+              <br/><br/>
+          <div className="welcome-one__mission-and-story-single">
+            <h3>
+              <i className="fas fa-arrow-circle-right"></i>Mission
+            </h3>
+            <p className="welcome-one__our-mission-and-story-text">
+            To empower God&apos;s people with the knowledge and application of His Word to transform their communities and nations. </p>
+          </div><br/>
+          <div className="welcome-one__mission-and-story-single">
+            <h3>
+              <i className="fas fa-arrow-circle-right"></i>Our Vision
+            </h3>
+            <p className="welcome-one__our-mission-and-story-text">
+            Transform nations through the Word. 
+            </p>
+           
+          </div>
             </div>
           </Col>
           <Col xl={6}>
